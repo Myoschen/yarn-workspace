@@ -1,0 +1,17 @@
+{
+  "name": "@yarn-workspace/package-c",
+  "version": "0.0.1",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "@yarn-workspace/package-b": "0.0.1"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "license": "ISC"
+}
